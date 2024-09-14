@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blockchain Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="Screenshot 2024-09-14 135238.png" height="100px"width="100px" alt="image of mine"></img>
+    <h1>Blockchain Application</h1>
+    <nav>
+      <ul>
+        <li><a href="#dashboard">Dashboard</a></li>
+        <li><a href="#transactions">Transactions</a></li>
+        <li><a href="#wallet">Wallet</a></li>
+        <li><a href="#settings">Settings</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="dashboard" class="content-section">
+      <h2>Dashboard</h2>
+      <div class="dashboard-cards">
+        <div class="card">
+          <h3>Balance</h3>
+          <p>100 BTC</p>
+        </div>
+        <div class="card">
+          <h3>Recent Transactions</h3>
+          <p>5 new transactions</p>
+        </div>
+        <div class="card">
+          <h3>Network Status</h3>
+          <p>Active</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="transactions" class="content-section">
+      <h2>Transactions</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Transaction ID</th>
+            <th>Date</th>
+            <th>Amount</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>#123456</td>
+            <td>01/09/2024</td>
+            <td>1 BTC</td>
+            <td>Completed</td>
+          </tr>
+          <tr>
+            <td>#123457</td>
+            <td>02/09/2024</td>
+            <td>0.5 BTC</td>
+            <td>Pending</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="wallet" class="content-section">
+      <h2>Your Wallet</h2>
+      <p>Wallet Address: <code>1A2b3C4D5eF6G7H8I9J0KLmnopQR</code></p>
+      <button>Copy Address</button>
+    </section>
+
+    <section id="settings" class="content-section">
+      <h2>Settings</h2>
+      <p>Adjust your preferences and network settings here.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Blockchain App - All rights reserved.</p>
+  </footer>
+</body>
+</html>
